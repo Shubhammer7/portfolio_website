@@ -4,20 +4,20 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Data Scientist",
-      company: "Tech Company",
-      period: "2022 - Present",
+      title: "Data Scientist",
+      company: "Millennium School",
+      period: "2024 - Present",
       description: [
-        "Led a team of 4 data scientists in developing machine learning models for customer behavior prediction, increasing conversion rates by 18%.",
-        "Implemented a recommendation system using collaborative filtering that improved user engagement by 23%.",
-        "Collaborated with product and engineering teams to integrate ML models into production systems."
+        "Developed a school-wide data platform processing 100K+ academic records annually, ensuring data integrity and privacy compliance while reducing ETL latency by 75% through Spark optimizations and AWS Lambda triggers.",
+        "Implemented predictive modeling of student performance using TensorFlow, achieving 85% accuracy to support consultative discussions and personalized intervention strategies.",
+        " Formulated data-driven KPIs for curriculum effectiveness, enabling business needs analysis that informed decisions and improved standardized test scores by 15% year-over-year."
       ],
-      technologies: ["Python", "TensorFlow", "AWS", "SQL", "Docker"]
+      technologies: ["Python", "TensorFlow", "AWS", "Spark", "CI/CD"]
     },
     {
       title: "Data Scientist",
-      company: "Data Analytics Inc.",
-      period: "2020 - 2022",
+      company: "Ipser Labs LLC",
+      period: "2024 - 2025",
       description: [
         "Developed predictive models using time series analysis for forecasting business metrics.",
         "Created data pipelines for automated data collection and preprocessing.",
@@ -26,13 +26,24 @@ const Experience = () => {
       technologies: ["Python", "Pandas", "Scikit-learn", "D3.js", "PostgreSQL"]
     },
     {
-      title: "Machine Learning Intern",
-      company: "AI Startup",
-      period: "2019 - 2020",
+      title: "Gradute Teaching Assistant",
+      company: "University Of San Francisco",
+      period: "2023 - 2024",
       description: [
         "Implemented natural language processing algorithms for sentiment analysis.",
         "Assisted in developing computer vision models for object detection.",
         "Conducted research on state-of-the-art machine learning techniques."
+      ],
+      technologies: ["Python", "PyTorch", "NLTK", "OpenCV", "Jupyter"]
+    },
+    {
+      title: "Gradute Teaching Assistant",
+      company: "University Of San Francisco",
+      period: "2022 - 2022",
+      description: [
+      "Implemented natural language processing algorithms for sentiment analysis.",
+      "Assisted in developing computer vision models for object detection.",
+      "Conducted research on state-of-the-art machine learning techniques."
       ],
       technologies: ["Python", "PyTorch", "NLTK", "OpenCV", "Jupyter"]
     }

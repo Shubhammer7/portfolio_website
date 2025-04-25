@@ -6,10 +6,10 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "Predictive Maintenance System",
+      title: "Movie Recommendation System (myfoodisgettingcold)",
       description: "Developed a machine learning system to predict equipment failures before they occur, reducing downtime by 35%.",
       category: "machine-learning",
-      technologies: ["Python", "TensorFlow", "Time Series Analysis", "AWS"]
+      technologies: ["Python", "Scikit-learn", "NearestNeighbors", "Azure"]
     },
     {
       title: "Customer Segmentation Analysis",

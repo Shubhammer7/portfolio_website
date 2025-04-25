@@ -24,7 +24,7 @@ const Home = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        <h2 className="title">Data Scientist & ML Engineer</h2>
+        <h2 className="title">Data Scientist & Data Analyst</h2>
         <p className="subtitle">Building intelligent systems that matter</p>
       </motion.div>
       

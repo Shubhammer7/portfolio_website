@@ -27,13 +27,14 @@ const About = () => {
           <div className="bio-section">
             <h2>Background</h2>
             <p>
-              I'm a Data Scientist and Machine Learning Engineer passionate about leveraging data 
-              to solve complex problems. With expertise in statistical analysis, machine learning algorithms,
-              and data visualization, I build solutions that transform raw data into actionable insights.
+            I'm a Data Scientist with extensive experience in developing machine learning solutions and optimizing data pipelines across diverse environments. 
+            With expertise in Python, TensorFlow, PyTorch, and cloud technologies (AWS, GCP), I transform complex datasets into actionable insights that drive measurable business outcomes. 
+            My work has reduced ETL latency by 75%, improved model accuracy to 85%, and decreased cloud computing costs by 25% through strategic optimizations.
             </p>
             <p>
-              My work combines technical expertise with creative problem-solving, allowing me to develop
-              innovative approaches to data challenges across various domains.
+            My approach combines technical expertise in predictive modeling and MLOps with strong collaborative skills, 
+            allowing me to bridge the gap between data science and business objectives. From implementing recommendation engines handling 5K+ predictions per second to establishing scalable A/B testing frameworks that enhanced conversion rates by 18%, 
+            I deliver solutions that create meaningful impact.
             </p>
           </div>
           
@@ -85,13 +86,13 @@ const About = () => {
           <div className="education-section">
             <h2>Education</h2>
             <div className="education-item">
-              <h3>Master's in Data Science</h3>
-              <p>University Name, Year</p>
+              <h3>Master's in Applied Economics</h3>
+              <p>University Of San Francisco, 2024</p>
             </div>
             
             <div className="education-item">
-              <h3>Bachelor's in Computer Science</h3>
-              <p>University Name, Year</p>
+              <h3>Bachelor's in Economics</h3>
+              <p>University of Mumbai, 2021</p>
             </div>
           </div>
         </motion.div>
